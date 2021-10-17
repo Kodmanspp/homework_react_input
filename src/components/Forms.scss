@@ -1,0 +1,77 @@
+body{
+    background-color: #176da79a;
+}
+*{
+    margin: 0px;
+}
+.main{
+    background: white;
+    border-radius: 5px;
+    max-width: 380px;
+    min-height: 450px;
+    margin: 150px auto 0px;
+    box-sizing: border-box;
+    padding: 20px 30px;
+}
+.form__text{
+    margin-top: 5px;
+    font-size: 14px;
+    color: gray;
+}
+.line{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: -30px;
+    width: 380px;
+    border-bottom: 1px solid rgb(220, 218, 218);
+}
+form{
+    display: block;
+}
+input{
+    background-color: rgb(238, 237, 237);
+    border: none;
+    height: 40px;
+    margin: 10px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-radius: 3px;
+    outline:none;
+}
+.firstName{
+    display: inline;
+    width: 45%;
+}
+.lastName{
+    width: 40%;
+    float: right;
+}
+.email{
+    width: 301px;
+}
+.password{
+    width: 301px;
+}
+.repeatPassword{
+    width: 301px;
+}
+.checkbox_container{
+    display: flex;
+    align-items: center;
+    
+}
+.checkbox{
+    background-color: rgb(238, 237, 237);
+}
+.checkboxText{
+    margin-top: -2px;
+}
+a{
+    color: rgba(0, 0, 255, 0.467);
+    cursor: pointer;
+}
+.submit{
+    background-color: rgb(0, 110, 255);
+    width: 100px;
+    color: white;
+}

@@ -4,6 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
+/src/components/Array.js
+/src/components/Form.js
+/src/components/Listitem.js
+
 
 # testing
 /coverage
